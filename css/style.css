@@ -146,7 +146,39 @@ nav>ul>li>button>i {
 .we-are-gamer-right h6{
     margin-top: 24px;
 }
+/* funny videos styles */
+.funny-video{
+    padding: 0 230px;
+    text-align: center;
+}
+.funny-video h2{
+    font-weight: 700;
+    font-size: 48px;
 
+}
+.funny-video h2 span{
+
+    background: -webkit-linear-gradient(#F948B2, rgb(188, 12, 241));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+}
+.funny-video p{
+    color: #534C64;
+    margin: 16px auto;
+}
+.funny-video{
+
+} 
+.video-cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    
+}
+.video-card{
+    margin-top: 30px;
+    text-align: left;
+}
 
 
 /* media style  */
