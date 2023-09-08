@@ -3,7 +3,7 @@
     font-family: 'Work Sans', sans-serif;
 }
 section{
-    margin-top: 140px;
+    margin-top: 50px;
 }
 .container{
     
@@ -122,7 +122,6 @@ nav>ul>li>button>i {
     display: flex;
     margin: 0px;
     padding: 0 230px;
-    /* opacity: 3%; */
     align-items: center;
     justify-content: space-between;
 }
@@ -157,7 +156,6 @@ nav>ul>li>button>i {
 
 }
 .funny-video h2 span{
-
     background: -webkit-linear-gradient(#F948B2, rgb(188, 12, 241));
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
@@ -180,6 +178,124 @@ nav>ul>li>button>i {
     text-align: left;
 }
 
+/* play instantly styles */
+.play-instantly{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 230px;
+}
+.play-instantly-left{
+
+}
+.play-instantly-title{
+    font-weight: 700;
+    font-size: 48px;
+}
+.play-instantly h2 span{
+    background: -webkit-linear-gradient(#F948B2, rgb(188, 12, 241));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+}
+.play-instantly-description{
+    color: #534C64;
+    margin-top: 24px;
+    line-height: 150%;
+}
+.play-instantly-right{
+    position: relative ;
+}
+.img-small{
+    position: relative;
+    top: -280px;
+    right: 160px;
+}
+.img-big{
+    position: relative;
+}
+
+/* play game online  styles */
+.play-game-online{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 230px;
+}
+.play-game-online-left{
+
+}
+.play-game-online-title{
+    font-weight: 700;
+    font-size: 48px;
+}
+.play-game-online h2 span{
+    background: -webkit-linear-gradient(#F948B2, rgb(188, 12, 241));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+}
+.play-game-online-description{
+    color: #534C64;
+    margin-top: 24px;
+    line-height: 150%;
+}
+.play-game-online-right{
+    
+}
+.img-small-2{
+    position: relative;
+    top: -220px;
+    left: 480px;
+}
+/* game-category styles*/
+.game-category{
+    padding: 0 230px;
+   display: grid;
+   grid-template-columns: repeat(5, 1fr);
+   grid-gap: 27px;
+   /* justify-content: space-between; */
+   justify-content: center;
+   /* justify-items: center; */
+}
+.game-list{
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    border: 1px solid #F948B2;
+    border-radius: 50px;
+    padding: 8px;
+}
+.game-list p{
+    font-size: 20px;
+    font-weight: 700;
+}
+/* .action-btn{
+    grid-area: a;
+}
+.adventure-btn{
+    grid-area: b;
+}
+.arcade-btn{
+    grid-area: c;
+}
+.educational-btn{
+    grid-area: d;
+}
+.word-btn{
+    grid-area: e;
+}
+.role-palying-btn{
+    grid-area: f;
+}
+.music-btn{
+    grid-area: g;
+}
+.puzzle-btn{
+    grid-area: h;
+}
+.strategy-btn{
+    grid-area: i;
+} */
 
 /* media style  */
 @media screen and (max-width:576px) {
@@ -220,6 +336,7 @@ nav>ul>li>button>i {
         width: 80%;
     }
 }
+
 @media  screen and (min-width:577px) and (max-width:992px) {
     
 }
