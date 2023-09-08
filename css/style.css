@@ -8,8 +8,8 @@ section{
 .container{
     
 }
-.container-md{
-    
+.hide{
+    display: none;
 }
 .btn-primary{
     background: #FF42A5;
@@ -369,8 +369,40 @@ footer p{
     .banner-right>img{
         width: 80%;
     }
+
+    /* footer styles  */
+    footer{
+        padding: 20px 0px;
+    }
+    .footer-list{
+        /* flex-direction: column; */
+        display: grid;
+        gap: 20px;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: space-between;
+    }
+    .social-media{
+        /* flex-direction: column; */
+        display: grid;
+        gap: 20px;
+        padding: 20px;
+        grid-template-columns: repeat(3, 1fr);
+        justify-content: space-between;
+    }
+    .term-conditions{
+        /* flex-direction: column; */
+        display: grid;
+        gap: 20px;
+        padding: 20px;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: space-between;
+    }
 }
 
+
 @media  screen and (min-width:577px) and (max-width:992px) {
+        footer{
+            padding: 20px 0px;
+        }
     
 }
